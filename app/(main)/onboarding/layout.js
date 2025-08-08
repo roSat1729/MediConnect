@@ -2,8 +2,8 @@ import { getCurrentUser } from "@/actions/onboarding";
 import { redirect } from "next/navigation";
 
 export const metadata = {
-  title: "Onboarding - MediMeet",
-  description: "Complete your profile to get started with MediMeet",
+  title: "Onboarding - MediConnect",
+  description: "Complete your profile to get started with MediConnect",
 };
 
 export default async function OnboardingLayout({ children }) {
